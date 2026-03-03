@@ -1,14 +1,19 @@
 {
   "name": "tiny-relative-time",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight relative time package as a formatter for JavaScript and TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/prajaktadhatrak/tiny-relative-time.git"
+  },
+  "homepage": "https://github.com/prajaktadhatrak/tiny-relative-time/blob/main/README.md",
   "scripts": {
     "build": "tsc",
     "test": "npm run build && node test.js"
   },
-  "keywords": ["time ago","time formatter","ago","relative","relative time","date formatter","time difference","javascript time"],
+  "keywords": ["time ago","time formatter","ago","relative","relative time","timestamp","time difference","javascript time","js","typescript time","ts"],
   "author": "Prajakta Dhatrak",
   "license": "MIT",
   "devDependencies": {
