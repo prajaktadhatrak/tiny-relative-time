@@ -7,6 +7,13 @@ tiny-relative-time is a lightweightand versatile package to format dates and tim
 • Compact formats 
 • Multiple modes for flexibility
 
+## Live Demo
+
+Try it instantly:
+
+- ⚡ [JavaScript Demo](https://codesandbox.io/p/sandbox/tiny-relative-time-35yr79)
+- 🛡️ [TypeScript Demo](https://codesandbox.io/p/sandbox/tiny-relative-time-typescript-pl6355)
+
 # 📦Installation 
 
 Install the package using npm: 

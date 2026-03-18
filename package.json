@@ -10,9 +10,15 @@
   },
   "homepage": "https://github.com/prajaktadhatrak/tiny-relative-time/blob/main/README.md",
   "scripts": {
-    "build": "tsc",
-    "test": "npm run build && node test.js"
+  "build": "tsc",
+  "test": "npm run build && node test.js",
+  "prepublishOnly": "npm run build"
   },
+  "files": [
+  "dist",
+  "README.md",
+  "LICENSE"
+  ],
   "keywords": ["time ago","time formatter","ago","relative","relative time","timestamp","time difference","javascript time","js","typescript time","ts","moment"],
   "author": "Prajakta Dhatrak",
   "license": "MIT",
